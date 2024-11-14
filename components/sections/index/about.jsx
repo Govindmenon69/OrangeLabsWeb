@@ -28,32 +28,31 @@ export default function About() {
 		<Section classProp={about.section}>	
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="About Me"
+					title="About Us"
 					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+					subTitle="At Orange Labs, we help brands and individuals bring their digital visions to life. Our focus is on creating websites and digital solutions that are not only visually appealing but also highly functional and user-friendly. Whether you’re a business looking to stand out or an individual wanting to make an impact online, we’re here to bring your ideas to fruition. Our team combines creativity with the latest technology to deliver tailored, effective digital experiences that help you connect with your audience and achieve your goals."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
+						<img src="https://c.tenor.com/NwY5ppxLs_oAAAAd/tenor.gif" alt="ADILIKESEARTH" width={600} height={800}/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
 						<CopyBlock 
-							title="Softskills that pay the bills"
+							title="Web Design"
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							copy="Our web design expertise ensures that each website we create is both visually captivating and user-friendly. We focus on aesthetics, layout, and functionality to make sure users have a seamless experience that reflects the client’s unique brand and message."
 						/>
 						<BadgesBlock 
-							title="Reasearch and planning" 
+							title="Other services" 
 							containerClass={about.container}
 							list={methods} 
 							fullContainer="fullContainer"
 							block="methods" 
 							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
-							//invertedColor="invertedColor"
+							copy="We have much more services than web design some are listed below"
 							headerIcon={`${about.icon}`}
 						/>
 					</div>
@@ -64,10 +63,10 @@ export default function About() {
 }
 
 const methods 	= [
-	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fad' },
-	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operations', 		type: 'fad' },
-]
+	{ key: 'planet-moon', 		name: 'Asset Design', 		                    type: 'fad' },
+	{ key: 'qrcode', 			name: 'Digital Strategy', 	                    type: 'fad' },
+	{ key: 'window', 			name: 'Online Presence Strategy', 	            type: 'fad' },
+	{ key: 'cubes', 			name: 'Branding and Marketing Design',         	type: 'far' },
+	{ key: 'layer-plus', 		name: 'Backend Systems',         	            type: 'fad' },
+	{ key: 'solar-system', 		name: 'Operations', 	                    	type: 'fad' },
+]  
