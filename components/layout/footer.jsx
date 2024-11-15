@@ -33,19 +33,8 @@ export default function Footer() {
 			<Container spacing={['verticalXXLrg', 'bottomLrg']}>
 				<section className={css.sections}>
 		
+		<h4>© Orange Labs GROUP , All rights reserved.</h4>
 		
-					<ul className={css.social}>
-						<li><h4>Social</h4></li>
-						<li className={css.socialList}>
-							{
-							content.social.map( ({ url, icon }, index) => {
-								return (
-									<a  key={index} href={url} rel="noreferrer" target="_blank"><Icon icon={[ 'fab', icon ]} /></a>
-								)
-							})
-							}
-						</li>
-					</ul>
 				</section>
 	
 			</Container>
