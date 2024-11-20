@@ -3,7 +3,7 @@
 		"project": "GaneshPedia",
 		"url": "ganeshpedia.ddns.net",
 		"repo": "Public",
-		"descriptionTitle": "A opensource WIKI for Lord Ganesh",
+		"descriptionTitle": "A opensource WIKI for practical nonsense",
 		"description": "with elegant UI and easy to use interface",
 		"imageOptions": [
 		],
@@ -12,10 +12,10 @@
 			{ "key": "mock-stack",	"hover": "left",	"h": "300", "w": "556", "url": "/img/msc-mock_stack/01.gif" }
 		],
 		"stack": [
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "javascript",          "name": "JavaScript", 	        "type": "devicon" },
 			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
 			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+			{ "key": "git",			"name": "Git(Hub)",      	"type": "devicon" }
 	
 		]
 	}
